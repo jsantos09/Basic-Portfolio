@@ -2,34 +2,54 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./assets/css/style.css" <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div>
-        <header>
-            <div id="name">
-                <strong>Juan Santos</strong>
-            </div>
-            <div id="links-right">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </header>
-    </div>
+    <header>
+        <div id="name">
+            <strong>Juan Santos</strong>
+        </div>
+        <div id="links-right">
+            <a href="index.html" class="extra">About</a>
+            <a href="portfolio.html" class="extra">Portfolio</a>
+            <a href="contact.html" class="extra">Contact</a>
+        </div>
+    </header>
 
     <div class="content">
         <h1 class="h1">Portfolio</h1>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
-        <a href="" class="portfolio"><img src="./assets/images/cat-eye.gif"></a>
+        <nav class="content-inside">
+            <!-- I was not able to figure out how to position a text box on top of
+            the images.
+            Came across this format on W3 Schools but was not able to place them side by side. -->
+            <div class="container">
+                <img src="./assets/images/cat-eye.gif" alt="Project A" class="image">
+                <div class="middle">
+                    <a href="#" class="text">Project A</a>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/images/cat-eye.gif" alt="Project B" class="image">
+                <div class="middle">
+                    <a href="#" class="text">Project B</a>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/images/cat-eye.gif" alt="Project C" class="image">
+                <div class="middle">
+                    <a href="#" class="text">Project C</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="footer">
+        <p>Copyright®</p>
     </div>
 </body>
 

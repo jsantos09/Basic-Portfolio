@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./assets/css/style.css"> <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
@@ -11,32 +13,35 @@
             <strong>Juan Santos</strong>
         </div>
         <nav id="links-right">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html" class="extra">About</a>
+            <a href="portfolio.html" class="extra">Portfolio</a>
+            <a href="contact.html" class="extra">Contact</a>
         </nav>
     </header>
+
 </head>
+
 
 <body>
     <div class="content">
         <h1 class="h1">Contact</h1>
-        <form action="">
+        <form action="Submit" class="center content-inside">
             Name:
             <br>
-            <input type="text" name="Name" value="" class="fill-box">
+            <textarea rows="1" cols="75"></textarea>
             <br> Email:
             <br>
-            <input type="text" name="Email" value="" class="fill-box">
+            <textarea rows="1" cols="75"></textarea>
             <br> Message:
             <br>
-            <input type: "text" name="Message" value="" id="Message">
-            <br>
-            <br>
-            <input type="submit" value="Submit" size="400px">
+            <textarea rows="10" cols="75"></textarea>
         </form>
+        <button class="center">Submit</button>
     </div>
 
+    <div class="footer">
+        <p>Copyright®</p>
+    </div>
 </body>
 
 </html>
